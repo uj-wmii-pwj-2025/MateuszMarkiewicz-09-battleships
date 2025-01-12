@@ -9,6 +9,8 @@ Aplikacja obługuje następujące parametry:
 * `-mode [server|client]` - wskazuje tryb działania (jako serwer: przyjmuje połączenie, jako klient: nawiązuje połączenie z serwerem)
 * `-port N` - port, na którym aplikacja ma się komunikować.
 * `-map map-file` - ścieżka do pliku zawierającego mapę z rozmieszczeniem statków (format opisany w sekcji Mapa).
+* `-host hostName` - tylko w trybie client: nazwa hosta, za jakim ma się komunikować klient
+
 
 ### Mapa
 * Mapa jest dokładnie taka sama jak w zadaniu nr 3 z zestawu 03-collections. Należy użyć uprzednio napisanego generatora do tworzenia losowych map.

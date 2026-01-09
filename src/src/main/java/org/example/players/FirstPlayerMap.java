@@ -145,7 +145,7 @@ public class FirstPlayerMap {
 
     public void displayMap() {
         System.out.println("Your map:");
-        System.out.println();
+        System.out.print("  ");
         for (int col = 1; col <= 10; col++) {
             System.out.print(col + " ");
         }

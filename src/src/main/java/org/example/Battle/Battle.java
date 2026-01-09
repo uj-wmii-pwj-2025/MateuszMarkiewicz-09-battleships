@@ -113,7 +113,7 @@ public class Battle {
                         System.out.println("————————————————————————————————————————————————————");
                         System.out.println("Congratulations! You have won the battle!");
                         System.out.println("————————————————————————————————————————————————————");
-                        secondPlayerMap.displayMap();
+                        secondPlayerMap.displayAfterWin();
                         System.out.println("————————————————————————————————————————————————————");
                         firstPlayerMap.displayMap();
                         System.out.println("————————————————————————————————————————————————————");
@@ -167,7 +167,6 @@ public class Battle {
                         firstPlayerMap.displayMap();
                         System.out.println("————————————————————————————————————————————————————");
                         ended = true;
-                        break;
                     } else {
                         response = result + ";" + attackCoordinates;
                     }
